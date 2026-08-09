@@ -1,0 +1,29 @@
+# Environment / private config
+.env
+.env.*
+!.env.example
+
+# Original project backup (recovery copy - never commit)
+backup/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller build output
+build/
+dist/
+*.spec.bak
+
+# Compiled executable (build artifact - build from source with PyInstaller)
+*.exe
+
+# OS / editor / cache
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.log
