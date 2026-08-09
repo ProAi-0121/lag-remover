@@ -54,7 +54,6 @@ python -m PyInstaller --onefile --windowed \
 ```
 lag-remover/
 ├── FIX.py        # the app itself
-├── Fix.spec      # PyInstaller build config
 ├── lag.ico       # window icon
 └── .gitignore
 ```
