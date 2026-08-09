@@ -44,11 +44,10 @@ open a terminal **as Administrator** before starting it.
 
 ```bash
 pip install pyinstaller
-pyinstaller Fix.spec
+python -m PyInstaller --onefile --windowed \
+    --add-data "lag.ico;." \
+    Fix.py
 ```
-
-The executable is written to `dist/Fix.exe`. The `.spec` file points at `FIX.py`
-and bundles `lag.ico` as the app icon.
 
 ## Project structure
 
